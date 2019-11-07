@@ -2,13 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Jung HaeIn
-  email:             <godls0827@naver.com>
+  name:              Jeong HaeIn
+  email:             <wjdgodls0827@naver.com>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    반갑습니다. 정해인 기술 블로그입니다.
+    HaeIn's Blog
 
   # This photo will be used in the about section
   picture:
@@ -23,8 +23,8 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         <username>
-    github:            wjdgodls0827
-    email:             godls0827@naver.com
+    github:            JHI93
+    email:             wjdgodls0827@naver.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>

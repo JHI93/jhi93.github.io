@@ -26,7 +26,7 @@ title:                    HAEIN
 # description:              
 # A shorter description for the sidebar.
 tagline:                  >
-  반갑습니다. 정해인 기술 블로그입니다.
+  HaeIn's Blog
 
 # A list of keywords for your blog
 keywords:                 []
@@ -34,12 +34,12 @@ keywords:                 []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                     /assets/icons/mk.jpg
+logo:                     /assets/icons/hi.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                   <Jung> <HaeIn>
-  email:                  <godls0827@naver.com>
+  name:                   <Jeong> <HaeIn>
+  email:                  <wjdgodls0827@naver.com>
   # Used by `jekyll-seo-tag`:
   # twitter:              <username>
 
@@ -128,11 +128,11 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:         UA-142987432-1
+google_analytics:         
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments:   true` in the front matter.
-disqus:                   godls0827
+disqus:                   JeongHaeIn
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:             <tinyletter_username>
