@@ -26,7 +26,7 @@ title:                    HAEIN
 # description:              
 # A shorter description for the sidebar.
 tagline:                  >
-  HaeIn's Blog
+  HaeIn's Study Blog
 
 # A list of keywords for your blog
 keywords:                 []
@@ -45,8 +45,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:                Algorithm
-    url:                  /algo/
+  - title:                ProblemSolving
+    url:                  /ps/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
