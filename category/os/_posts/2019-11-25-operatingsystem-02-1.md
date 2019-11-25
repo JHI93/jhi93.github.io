@@ -81,9 +81,9 @@ A : **System Call**을 사용한다.
 ( System Call : 운영체제에게 I/O 요청을 하는 운영체제 함수를 호출하는 것 )
 
 cf) Interrupt Line 설정후 OS에게 CPU가 넘어간다.  
-<mark>->이를 sw 인터럽트라고 하며 **Trap**이라고도 부른다.</mark> 
+<mark>->이를 SW 인터럽트라고 하며 Trap이라고도 부른다.</mark> 
 
-<mark>->일반적으로 **Interrupt**는 HW가 거는 것을 의미한다.</mark>
+<mark>->일반적으로 Interrupt는 HW가 거는 것을 의미한다.</mark>
 
 # 6. 인터럽트(Interrupt)
 > 인터럽트 당한 시점의 레지스터와 Program Counter를 save한 후 CPU의 제어를 인터럽트 처리 루틴에 넘긴다.
