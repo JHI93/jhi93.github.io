@@ -12,7 +12,8 @@ excerpt_separator: <!--more-->
 ![SystemStructure](../../../assets/img/os/SystemStructure.png)
 
 - **CPU** : 기계어를 하나씩 읽어서 실행. <br/>
-<mark> (매 클럭마다) ① Memory에서 Instruction을 읽고 ② 실행 ( ③ 인터럽트 확인) 을 반복한다. </mark> <br/>
+<mark>(매 클럭마다) ① Memory에서 Instruction을 읽고 ② 실행 ( ③ 인터럽트 확인) 을 반복한다.</mark>
+<br/>
 CPU는 IO 디바이스를 직접 접근하지 않고 메모리만 접근하는 Instruction을 실행.<br/>
 IO디바이스에서 읽어올 필요가 있을때 본인이 일하는 것이 아니라 **Device Controller**에게 일을 시킨다.<br/>
 => CPU는 다른일 수행한다.<br/>
@@ -41,7 +42,7 @@ cf) CPU는 Memory, Local Buffer 접근이 가능하다.<br/>
 - **Disk** : Memory로 input 하기도 하고 Memory 내용을 파일로 저장하는 output을 하기도 한다.<br/>
 
 - **Device Controller** : IO/Device를 전담하는 작은 CPU.<br/>
-Disk에서 헤드가 어떻게 움직이고 어떤 데이터를 읽을지 Dist 내부 통제한다.<br/>
+Disk에서 헤드가 어떻게 움직이고 어떤 데이터를 읽을지 Disk 내부 통제한다.<br/>
 
 - **Local Buffer** : Device Controller의 작업공간.<br/>
 
@@ -78,8 +79,9 @@ Q : 사용자 프로그램은 I/O를 어떻게 사용하는가?<br/>
 A : **System Call**을 사용한다.<br/>
 ( System Call : 운영체제에게 I/O 요청을 하는 운영체제 함수를 호출하는 것 )
 
-cf) Interrupt Line 설정후 OS에게 CPU가 넘어간다. <br/>
-<mark>->이를 sw 인터럽트라고 하며 **Trap**이라고도 부른다.</mark><br/>
+cf) Interrupt Line 설정후 OS에게 CPU가 넘어간다.<br/>
+<mark>->이를 sw 인터럽트라고 하며 **Trap**이라고도 부른다.</mark>
+<br/>
 <mark>->일반적으로 **Interrupt**는 HW가 거는 것을 의미한다.</mark>
 
 # 6. 인터럽트(Interrupt)
