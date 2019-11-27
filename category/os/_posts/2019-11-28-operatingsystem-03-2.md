@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "03. Process-2 (Tread)"
+title: "03. Process-2 (=Tread)"
 description: >
-  Thread
+  Thread, Single and Multithreaded Processes, Benefits of Threads, Implemetation of Threads
 excerpt_separator: <!--more-->
 ---
 
 <!--more-->
 
-# Thread란?
+# 1.Thread란?
 > Thread는 Process 내부에 CPU 수행단위가 여러개 있는 것.
 
 ![ThreadStack](../../../assets/img/os/ThreadStack.png)
@@ -38,3 +38,25 @@ excerpt_separator: <!--more-->
 ② 동일한 일을 수행하는 다중 쓰레드가 협력하여 높은 처리(throughput)와 성능 향상을 얻을 수 있다.
 
 ③ 쓰레드를 사용하면 병렬성을 높일 수 있다.
+
+![ThreadExplain](../../../assets/img/os/ThreadExplain.png)
+
+-> CPU 관련 정보만 별도로 갖게 된다.
+
+# 2. Single & Multithreaded Processes
+![Simgle&MultiThread](../../../assets/img/os/Simgle&MultiThread.png)
+
+### - 멀티쓰레드 장점
+1. 응답성
+2. 자원을 공유
+3. 경제성 
+4. 멀티프로세서 아키텍처의 유용성 => 병렬적으로 일을 수행
+
+# 3. Kernel Threads & User Threads
+- **커널 쓰레드**는 커널의 지원을 받아서 만든다.    
+  커널이 쓰레드가 여러개 있다는 것을 안다.    
+
+- **유저 쓰레드**는 커널의 지원을 받지 않고 사용자수준에서 구현한다. (=Library 사용한다.)   
+커널이 쓰레드가 여러개 있다는 것을 모른다.   
+-> 프로세스 내에서 관리를 한다.  
+=> 제약사항이 존재한다.   
