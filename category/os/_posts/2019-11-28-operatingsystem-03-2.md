@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "03. Process-2 (=Tread)"
+title: "03. Process-2 (=Thread)"
 description: >
   Thread, Single and Multithreaded Processes, Benefits of Threads, Implemetation of Threads
 excerpt_separator: <!--more-->
