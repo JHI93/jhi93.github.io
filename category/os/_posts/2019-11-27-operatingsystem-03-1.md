@@ -89,7 +89,7 @@ CPU, 메모리 상태, 운영체제가 그 프로세스에 대해서 어떤 값�
 ② CPU를 새롭게 얻는 프로세스의 상태를 PCB에서 읽어옴.
 
 ### * System Call 이나 Interrupt 발생시 반드시 Context Switch가 일어나는 것은 아니다!
-![ContextSwitch-1](../../../assets/img/os/ContextSwitch-1.png)
+![ContextSwitchExplain](../../../assets/img/os/ContextSwitchExplain.png)
 
 (1)의 경우에도 CPU 수행 정보 등 Context의 일부를 PCB에 저장해야 하지만 문맥교환을 하는 (2)의 경우 그 부담이 훨씬 크다.    
 
