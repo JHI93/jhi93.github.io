@@ -2,7 +2,7 @@
 layout: post
 title: "03. Process-2 (Tread)"
 description: >
-  프로세스의 개념, 프로세스의 상태(Process State), 프로세스의 개념, 프로세스 상태도, Process Control Block(PCB), 문맥교환(Context Switch), 프로세스를 스케줄링하기 위한 큐, Ready Queue와 다양한 Device Queue, 스케줄러(Scheduler)
+  Thread
 excerpt_separator: <!--more-->
 ---
 
