@@ -132,7 +132,7 @@ cf) 사용자 프로세스로부터 운영체제에게 CPU가 넘어가는 것�
 => 중기스케줄러에 의해 메모리에서 쫒겨낸 애들을 표현하기 위한 Suspended를 사용.( 디스크로 SWAP OUT)   
 외부에서 정지시켜 놨기 때문에 외부에서 재개를 시켜줘야 Active가 될 수 있다.
 
-![ProcessStateExtension](../../../assets/img/os/ProcessStateExtension.png)
+![ProcessStateExtension](../../../assets/img/os/ProcessState2.png)
 
 cf) User Mode에서 실행하다가 System Call 같은 Interrupt에 의해 운영체제에게 CPU가 넘어갔을 때,    
 이를 운영체제 커널이 Running하고 있다고 표시하지 않는다.  
