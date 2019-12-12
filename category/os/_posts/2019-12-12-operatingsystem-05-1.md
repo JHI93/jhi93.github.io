@@ -94,7 +94,8 @@ cf) Convoy Effect : 긴 프로세스가 먼저 오는 바람에 짧은 프로세
 도중에 들어온 프로세스가 더 짧다면 CPU를 뺏는다.
 
 ![NonpreemptiveSJF](../../../assets/img/os/NonpreemptiveSJF.png)
-=> 선전 SJF는 Average Waiting Time을 최소화하는 알고리즘이다.
+
+=> 선점 SJF는 Average Waiting Time을 최소화하는 알고리즘이다.
 
 \* 문제점?
 1. Starvation(기아상태) : CPU 사용시간이 긴 프로세스는 영원히 못 받을 수 있다.
